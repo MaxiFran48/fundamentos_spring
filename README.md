@@ -1,47 +1,3 @@
-======================================================================
-```
-
-### Ejecución en Modo Producción (PROD)
-
-```
-==================================================
-Sistema de Gestión de Tareas - PRODUCCIÓN
-==================================================
-
-⚙️  CONFIGURACIÓN ACTUAL:
-   Nombre de la aplicación: Sistema de Gestión de Tareas
-   Máximo de tareas: 1000
-   Mostrar estadísticas: false
-
-📋 LISTADO DE TODAS LAS TAREAS INICIALES:
-   ⏳ [ID: 1] 🔴 ALTA - Completar práctica de Spring Boot
-   ⏳ [ID: 2] 🔴 ALTA - Estudiar inyección de dependencias
-   ✅ [ID: 3] 🟡 MEDIA - Revisar documentación de profiles
-   ⏳ [ID: 4] 🟡 MEDIA - Configurar properties en Spring
-   ⏳ [ID: 5] 🟢 BAJA - Crear repositorio en GitHub
-
-➕ AGREGANDO NUEVA TAREA...
-   ✅ Tarea agregada: Documentar el proyecto con README profesional
-
-⏳ TAREAS PENDIENTES:
-   ⏳ [ID: 1] 🔴 ALTA - Completar práctica de Spring Boot
-   ⏳ [ID: 2] 🔴 ALTA - Estudiar inyección de dependencias
-   ⏳ [ID: 4] 🟡 MEDIA - Configurar properties en Spring
-   ⏳ [ID: 5] 🟢 BAJA - Crear repositorio en GitHub
-   ⏳ [ID: 6] 🔴 ALTA - Documentar el proyecto con README profesional
-
-✓ MARCANDO TAREA #1 COMO COMPLETADA...
-   ✅ Tarea marcada como completada exitosamente
-
-✅ TAREAS COMPLETADAS:
-   ✅ [ID: 1] 🔴 ALTA - Completar práctica de Spring Boot
-   ✅ [ID: 3] 🟡 MEDIA - Revisar documentación de profiles
-
-==================================================
-Aplicación finalizada correctamente
-==================================================
-```
-
 ## 🔑 Características Implementadas
 
 ### ✅ Parte 1: Proyecto Base
@@ -119,17 +75,15 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 ⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub!
 
-**Desarrollado con ❤️ usando Spring Boot**
+**Desarrollado usando Spring Boot**
 # 📋 Sistema de Gestión de Tareas (To-Do List)
 
 Sistema completo de gestión de tareas desarrollado con Spring Boot que aplica buenas prácticas profesionales de desarrollo.
 
 ## 👤 Información del Estudiante
 
-- **Nombre:** [Tu Nombre]
-- **Legajo:** [Tu Legajo]
-- **Universidad:** Universidad Tecnológica Nacional (UTN)
-- **Materia:** Fundamentos de Spring Boot
+- **Nombre:** Maximo Fran
+- **Legajo:** 50903
 
 ## 📝 Descripción del Proyecto
 
@@ -321,3 +275,48 @@ export SPRING_PROFILES_ACTIVE=prod
 🐛 Recuerda: los bugs son características no documentadas 😄
 📚 Sigue aprendiendo Spring Boot!
 
+```
+
+### Ejecución en Modo Desarrollo (DEV)
+
+```
+==================================================
+Sistema de Gestion de Tareas - PRODUCCION
+==================================================
+
+CONFIGURACION ACTUAL:
+   Nombre de la aplicacion: Sistema de Gestion de Tareas
+   Maximo de tareas: 1000
+   Mostrar estadisticas: false
+
+LISTADO DE TODAS LAS TAREAS INICIALES:
+   [ ] [ID: 1] [ALTA] Completar practica de Spring Boot
+   [ ] [ID: 2] [ALTA] Estudiar inyeccion de dependencias
+   [X] [ID: 3] [MEDIA] Revisar documentacion de profiles
+   [ ] [ID: 4] [MEDIA] Configurar properties en Spring
+   [ ] [ID: 5] [BAJA] Crear repositorio en GitHub
+
+
+AGREGANDO NUEVA TAREA...
+   Tarea agregada: Documentar el proyecto con README profesional
+
+TAREAS PENDIENTES:
+   [ ] [ID: 1] [ALTA] Completar practica de Spring Boot
+   [ ] [ID: 2] [ALTA] Estudiar inyeccion de dependencias
+   [ ] [ID: 4] [MEDIA] Configurar properties en Spring
+   [ ] [ID: 5] [BAJA] Crear repositorio en GitHub
+   [ ] [ID: 6] [ALTA] Documentar el proyecto con README profesional
+
+
+MARCANDO TAREA #1 COMO COMPLETADA...
+   Tarea marcada como completada exitosamente
+
+TAREAS COMPLETADAS:
+   [X] [ID: 1] [ALTA] Completar practica de Spring Boot
+   [X] [ID: 3] [MEDIA] Revisar documentacion de profiles
+
+
+==================================================
+Aplicacion finalizada correctamente
+==================================================
+```
