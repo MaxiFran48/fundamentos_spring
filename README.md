@@ -69,13 +69,15 @@ Este proyecto me ha dado las bases sólidas para continuar desarrollando aplicac
 
 ## 📄 Licencia
 
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+Copyright (c) 2025 Máximo Fran
 
 ---
 
 ⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub!
 
-**Desarrollado usando Spring Boot**
+**Desarrollado con ❤️ usando Spring Boot por Máximo Fran**
 # 📋 Sistema de Gestión de Tareas (To-Do List)
 
 Sistema completo de gestión de tareas desarrollado con Spring Boot que aplica buenas prácticas profesionales de desarrollo.
